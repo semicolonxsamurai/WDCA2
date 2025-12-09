@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <!-- USE SAME CSS FILE -->
+    <link rel="stylesheet" href="./about.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <div class="navbar">
+            <div class="logo">Swastik Verma</div>
+
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="./contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTACT CONTENT -->
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <p>If you want to reach out, collaborate, or share feedback, feel free to send me a message!</p>
+
+        <form class="contact-form" method="post" action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
